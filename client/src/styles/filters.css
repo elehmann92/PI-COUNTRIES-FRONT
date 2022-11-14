@@ -1,0 +1,88 @@
+.activityFilterContainer {
+  margin: 15px 5px 20px 5px;
+  display: flex;
+  flex-direction: column;
+}
+.activityFilterContainer > label {
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.activityFilterContainer > select {
+  width: 12rem;
+  margin: auto;
+  padding-left: 0.5rem;
+  height: 1.5rem;
+  border-color: var(--color-sitis-green);
+  border-radius: 9999px;
+}
+
+.activityFilterContainer > select:hover {
+  border-color: var(--color-sitis-background);
+}
+.activityFilterContainer > select:focus {
+  outline: none;
+  border-color: var(--color-sitis-background);
+  box-shadow: 0px 1px 10px 2px  #2b394248;
+  -webkit-box-shadow: 0px 1px 10px 2px  #2b394248;
+  -moz-box-shadow: 0px 1px 10px 2px  #2b394248;
+}
+
+.continentFilterContainer > label {
+  font-weight: 600;
+}
+.continentCheckContainer {
+  display: flex;
+  margin: 5px 5px 5px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.continentCheckContainer > label {
+  /* margin-bottom: 5px; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-weight: 400;
+  width: 150px;
+}
+.continentCheckContainer > label > input {
+  margin-right: 5px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--color-sitis-green);
+}
+
+.filterButton {
+  border-radius: 9999px;
+  width: 8rem;
+  height: 1.7rem;
+  border-style: none;
+  margin: 4px;
+  color: white;
+  font-weight: 500;
+}
+
+.filterButton:hover {
+  font-weight: 700;
+}
+
+button.negative {
+  background-color: var(--color-sitis-magenta);
+}
+button.negative:hover {
+  border-color: var(--color-sitis-magenta);
+  box-shadow: 0px 1px 10px 2px rgba(231, 58, 90, 0.31);
+  -webkit-box-shadow: 0px 1px 10px 2px rgba(231, 58, 90, 0.31);
+  -moz-box-shadow: 0px 1px 10px 2px rgba(231, 58, 90, 0.31);
+}
+button.positive {
+  background-color: var(--color-sitis-green);
+}
+button.positive:hover {
+  border-color: var(--color-sitis-green);
+  box-shadow: 0px 1px 10px 2px rgba(48, 194, 165, 0.31);
+  -webkit-box-shadow: 0px 1px 10px 2px rgba(48, 194, 165, 0.31);
+  -moz-box-shadow: 0px 1px 10px 2px rgba(48, 194, 165, 0.31);
+}
+

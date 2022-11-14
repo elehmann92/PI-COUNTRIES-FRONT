@@ -1,0 +1,19 @@
+.fsMainContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--color-sitis-background);
+  margin: 70.8px 1rem 0 auto;
+  padding: 0.8rem 1rem 1rem 0;
+  height: calc(100vh - 103px);
+  /* height: 100%; */
+  box-shadow: 3px 10px 0px 0px rgba(168, 168, 168, 0.75);
+  -webkit-box-shadow: 3px 0px 10px 0px rgba(168, 168, 168, 0.75);
+  -moz-box-shadow: 3px 0px 10px 0px rgba(168, 168, 168, 0.75);
+  font-weight: 600;
+}
+
+.fsMainContainer > label {
+  margin-bottom: 3px;
+}

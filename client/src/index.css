@@ -1,0 +1,21 @@
+:root {
+  --color-sitis-magenta: #e73a5a;
+  --color-sitis-blue: #48a2de;
+  --color-sitis-green: #30c2a5;
+  --color-sitis-darkGray: #2c2c3c;
+  --color-sitis-background: #2b3942;
+}
+
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,231 @@
+.formMainContainer {
+  margin-top: 71.2px;
+  background-image: url("../assets/patter\ sitis-05.png");
+  background-size: 100rem;
+  color: var(--color-sitis-background);
+  min-height: 90vh;
+}
+
+.safeBox {
+  padding-top: 1rem;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.formPieceContainer {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0.5rem;
+  margin-top: .3rem;
+}
+
+.errorLabel,
+.errorLabelSelect {
+  position: absolute;
+  color: var(--color-sitis-magenta);
+  font-size: 0.75rem;
+  top: 65px;
+}
+
+.countrySelection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-style: solid; */
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  -webkit-box-shadow: 0px 0px 15px -5px #000000;
+  box-shadow: 0px 0px 15px -5px #000000;
+  background-color: white;
+}
+
+.formTitle {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-sitis-green);
+  /* text-shadow: 0px 0px 5px rgba(43, 57, 66, 0.45); */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  max-height: 30rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  -webkit-box-shadow: 0px 0px 15px -5px #000000;
+  box-shadow: 0px 0px 15px -5px #000000;
+  background-color: white;
+}
+
+.countrySelection > label {
+  font-weight: 700;
+}
+.countryTagsContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+  padding: 2px;
+  width: 20rem;
+}
+
+.tagContainer > label {
+  font-weight: 600;
+}
+
+.countryTag {
+  margin: 5px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 18rem;
+  border-radius: 9999px;
+  /* border-style: solid; */
+  border-width: 2px;
+  border-color: #bccbd8;
+  transition: 500ms;
+  -webkit-box-shadow: 0px 0px 15px -5px #000000;
+  box-shadow: 0px 0px 15px -5px #000000;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.countryTag > label {
+  max-width: 13rem;
+}
+
+.countryTag:hover {
+  -webkit-box-shadow: 0px 0px 27px -5px #000000;
+  box-shadow: 0px 0px 27px -5px #000000;
+  opacity: 1;
+}
+
+.controlButton {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  border-style: none;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+.controlButton:hover {
+  background-color: var(--color-sitis-green);
+  transition: 500ms;
+}
+
+.addCountryButton {
+    background-color: var(--color-sitis-green);
+    opacity: .4;
+}
+
+.addCountryButton:hover {
+  opacity: 1;
+}
+.removeCountryButton {
+  background-color: #fad1d1;
+}
+.removeCountryButton:hover {
+  background-color: var(--color-sitis-magenta);
+}
+
+.flagIcon {
+  margin-left: 0.5rem;
+  width: 2rem;
+  border-radius: 9999px;
+}
+
+.selectedCountries > label {
+  color: var(--color-sitis-magenta);
+}
+
+input[type="range"] {
+  accent-color: var(--color-sitis-green);
+}
+
+.createButton {
+  margin: 0 auto 1rem auto;
+  width: 16rem;
+  height: 3rem;
+  border-radius: 9999px;
+  color: white;
+  background-color: var(--color-sitis-green);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-style: none;
+}
+
+.createButton:disabled {
+  opacity: 0.4;
+  background-color: var(--color-sitis-magenta);
+}
+
+.createButton:hover {
+  -webkit-box-shadow: 0px 0px 15px -5px #000000;
+  box-shadow: 0px 0px 15px -5px #000000;
+}
+
+.boldTitle {
+  font-weight: 700;
+}
+
+.nameInput {
+  outline: none;
+  width: 18rem;
+  height: 1.5rem;
+  margin: 5px auto 0 auto;
+  padding-left: 0.5rem;
+  border-style: solid;
+  border-color: var(--color-sitis-green);
+  border-radius: 9999px;
+}
+.nameInput:focus {
+  outline: none;
+  border-color: var(--color-sitis-background);
+  box-shadow: 0px 1px 10px 2px #2b394248;
+  -webkit-box-shadow: 0px 1px 10px 2px #2b394248;
+  -moz-box-shadow: 0px 1px 10px 2px #2b394248;
+}
+
+.nameInput:hover {
+  border-color: var(--color-sitis-background);
+}
+
+.formSelect {
+  width: 19rem;
+  height: 1.8rem;
+  margin-top: 5px;
+  padding-left: 0.5rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color-sitis-green);
+  border-radius: 9999px;
+}
+
+.formSelect:hover {
+  border-color: var(--color-sitis-background);
+}
+.formSelect:focus {
+  outline: none;
+  border-color: var(--color-sitis-background);
+  box-shadow: 0px 1px 10px 2px #2b394248;
+  -webkit-box-shadow: 0px 1px 10px 2px #2b394248;
+  -moz-box-shadow: 0px 1px 10px 2px #2b394248;
+}

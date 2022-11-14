@@ -1,0 +1,52 @@
+.pageList {
+  padding: 0.3rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 90px auto 15px auto;
+  border-radius: 9999px;
+  color: var(--color-sitis-darkGray);
+  box-shadow: 0px 1px 15px 5px rgba(44, 44, 60, 0.31);
+  -webkit-box-shadow: 0px 1px 15px 5px rgba(44, 44, 60, 0.31);
+  -moz-box-shadow: 0px 1px 15px 5px rgba(44, 44, 60, 0.31);
+  background-color: white;
+}
+
+.pageNumber {
+  padding: 0.3rem;
+  font-size: 1rem;
+  width: 1.1rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+.activePage {
+ background-color: var(--color-sitis-green);
+ color: white;
+ font-weight: 700;
+}
+
+.pageNumber:hover {
+  font-weight: 600;
+  color: white;
+  background-color: var(--color-sitis-green);
+}
+.pageArrow{
+  margin: 0 3px 0 3px;
+  height:1.4rem;
+  width:2.5rem;
+  padding: 0 .3rem 0 .3rem;
+  vertical-align: middle;
+  border-radius: 9999px;
+  border-style: none;
+  background-color: var(--color-sitis-background);
+  color:white;
+  font-size: .7rem;
+  font-weight: 500;
+  opacity: .4;
+}
+.pageArrow:hover{
+  opacity: 1;
+}

@@ -1,0 +1,77 @@
+.nav {
+  /* margin-bottom: 10px; */
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.4rem;
+  justify-content: space-between;
+  background-image: url("../assets/patter sitis-05.png");
+  background-color: var(--color-sitis-background);
+  background-size: 100rem;
+  z-index: 100;
+}
+
+.iso {
+  position: relative;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(7.7px);
+  padding: 5px;
+  display: inherit;
+  align-items: center;
+  box-shadow: 1px 1px 10px 6px var(--color-sitis-background) inset;
+  -webkit-box-shadow: 1px 1px 10px 6px var(--color-sitis-background) inset;
+  -moz-box-shadow: 1px 1px 10px 6px var(--color-sitis-background) inset;
+}
+
+.iso > img {
+  height: 3rem;
+}
+
+.iso > a > p {
+  color: var(--color-sitis-green);
+  font-weight: 700;
+  font-size: 2rem;
+  width: 7rem;
+}
+
+.links > * {
+  margin: 0.5rem;
+}
+.links {
+  position: relative;
+  margin-right: 1rem;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(7.7px);
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 10px 6px var(--color-sitis-background) inset;
+  -webkit-box-shadow: 1px 1px 10px 6px var(--color-sitis-background) inset;
+  -moz-box-shadow: 1px 1px 10px 6px var(--color-sitis-background) inset;
+}
+
+.navLink {
+  color: var(--color-sitis-green);
+  text-align: justify;
+  padding: 8px 10px 2px 10px;
+  height: 1.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.navLink:hover {
+  color:white;
+  background-color: var(--color-sitis-green);
+}
+
+.linkImg {
+  height: 2rem;
+  filter: invert(62%) sepia(28%) saturate(933%) hue-rotate(118deg) brightness(98%) contrast(91%);
+}
