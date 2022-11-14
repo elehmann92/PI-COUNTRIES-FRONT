@@ -47,7 +47,7 @@ function ActivityCreationForm() {
       return;
     }
     axios
-      .post("http://localhost:3001/activities", data)
+      .post("/activities", data)
       .then((response) => alert(response.data.message))
       .catch((error) =>
         alert("An error occured. Activity couldn`t been posted")

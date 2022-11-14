@@ -16,19 +16,19 @@ import {
 } from "./actionTypes";
 
 export const getAllCountries = () => (dispatch) => {
-  return axios("http://localhost:3001/countries")
+  return axios("/countries")
     .then((response) =>
       dispatch({ type: GET_ALL_COUNTRIES, payload: response.data })
     );
 };
 
 export const getCountryById = (id) => (dispatch) => {
-  return axios(`http://localhost:3001/countries/${id}`)
+  return axios(`/countries/${id}`)
     .then((response) => dispatch({ type: GET_COUNTRY_BY_ID, payload: response.data }));
 };
 
 export const getCountriesByName = (name) => (dispatch) => {
-  return axios(`http://localhost:3001/countries?name=${name}`)
+  return axios(`/countries?name=${name}`)
     .then((response) =>
       dispatch({ type: GET_COUNTRIES_BY_NAME, payload: response.data })
     );
@@ -40,7 +40,7 @@ export const sortCountries = (criteria) => ({
 });
 
 export const getActivities = () => (dispatch) => {
-  return axios("http://localhost:3001/activities")
+  return axios("/activities")
     .then((response) =>
       dispatch({ type: GET_ACTIVITIES, payload: response.data })
     );
