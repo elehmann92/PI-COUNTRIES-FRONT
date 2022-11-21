@@ -10,7 +10,8 @@ import dotenv from "dotenv"
 dotenv.config()
 
 // axios.defaults.baseURL = "http://localhost:3001"
-axios.defaults.baseURL = "https://pi-countries-api-production.up.railway.app/"
+// axios.defaults.baseURL = "https://pi-countries-api-production.up.railway.app/"
+axios.defaults.baseURL = "https://sitis-server.onrender.com/"
 
 ReactDOM.render(
   <Provider store={store}>
